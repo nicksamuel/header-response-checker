@@ -21,7 +21,7 @@
     </head>
     <body>
         <main>
-            <?php            
+            <?php          
             if (!empty($_GET['website'])) {
                 $url = filter_var($_GET['website'], FILTER_SANITIZE_URL);                
                 $url = strip_tags($url);
