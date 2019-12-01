@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Will Samuel</title>
+        <title>Cloudflare Checker</title>
         <style>
             body{
                 margin:0px;
@@ -52,20 +52,5 @@
             <input type="name" name='website' placeholder="website" <?php if(!empty($url)){ echo 'value="' . $url . '"';} ?>/>
             </form>
         </main>
-        <script>
-            window.setInterval(function () {
-                var height = Math.floor(Math.random() * 90);
-                var width = Math.floor(Math.random() * 90);
-                height = "calc( " + height + "% - 123.5px)";
-                width = "calc( " + width + "% - 87px";               
-                document.getElementById("dbz").style.top = height;
-                document.getElementById("dbz").style.left = width;
-                if (Math.random() > 0.5){
-                    document.getElementById("dbz").style.transform = "scaleX(1)";
-                }else{
-                    document.getElementById("dbz").style.transform = "scaleX(-1)";
-                }
-            }, 1000);
-        </script>
     </body>
 </html>
