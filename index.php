@@ -47,7 +47,7 @@
             ?>
 
             
-            <h1>Will's Cloudflare Tracker</h1>
+            <h1>Cloudflare Tracker</h1>
             <form>
             <input type="name" name='website' placeholder="website" <?php if(!empty($url)){ echo 'value="' . $url . '"';} ?>/>
             </form>
