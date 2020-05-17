@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<!-- Will's quick PHP version for reference -->
+
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -46,7 +49,7 @@
             }
             ?>
 
-            
+           
             <h1>Cloudflare Tracker</h1>
             <form>
             <input type="name" name='website' placeholder="website" <?php if(!empty($url)){ echo 'value="' . $url . '"';} ?>/>
